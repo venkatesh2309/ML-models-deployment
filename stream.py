@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+##import matplotlib.pyplot as plt
+##import seaborn as sns
 ##%matplotlib inline
 
 import  streamlit as st
@@ -84,7 +84,7 @@ for i in range(1,40):
     overall.append(score.mean())
     
     
-plt.plot(range(1,40),overall,marker='o')
+##plt.plot(range(1,40),overall,marker='o')
   
 from sklearn.ensemble import RandomForestClassifier
 random=RandomForestClassifier(n_estimators=100)
