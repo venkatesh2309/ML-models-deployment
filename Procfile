@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run dummy23.py
+web: sh setup.sh && streamlit run stream.py
