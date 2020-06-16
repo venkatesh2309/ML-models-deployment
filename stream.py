@@ -14,7 +14,7 @@ st.write("""
 st.markdown("### An Machine Learning Web App, built with Streamlit")
 
 data_df=pd.read_csv('diabetes.csv')
-st.sidebar.header('Please provide below information')
+st.sidebar.header('Please Provide Below Information')
 
 
 ##data_df
@@ -124,9 +124,9 @@ prediction=random.predict(ev)
 
 st.markdown("### PREDICTION")
 if prediction == 1:
-    st.warning('OOPS **YOU HAVE DIABETES**')
+    st.warning('OOPS **YOU HAVE DIABETES...**')
 elif prediction == 0:
-    st.success('KUDOS YOU **DONT HAVE DIABETES**')
+    st.success('KUDOS YOU **DONT HAVE DIABETES...**')
     st.balloons()
     
     
