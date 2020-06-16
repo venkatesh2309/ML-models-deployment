@@ -66,22 +66,22 @@ x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
 ##x_test.shape,y_test.shape
 
 # KNN or k-Nearest Neighbors
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
+##from sklearn.neighbors import KNeighborsClassifier
+##from sklearn.metrics import accuracy_score
 
-knn = KNeighborsClassifier(n_neighbors=13)
-knn.fit(x_train, y_train)
-y_pred = knn.predict(x_test)
-acc_knn = round(accuracy_score(y_test, y_pred) * 100, 2)
-print(acc_knn)
+##knn = KNeighborsClassifier(n_neighbors=13)
+##knn.fit(x_train, y_train)
+##y_pred = knn.predict(x_test)
+##acc_knn = round(accuracy_score(y_test, y_pred) * 100, 2)
+##print(acc_knn)
 
 ## let us look for best K
-from sklearn.model_selection import cross_val_score
-overall=[]
-for i in range(1,40):
-    knn2=KNeighborsClassifier(n_neighbors=i)
-    score=cross_val_score(knn2,x1,y,cv=10)
-    overall.append(score.mean())
+##from sklearn.model_selection import cross_val_score
+##overall=[]
+##for i in range(1,40):
+    ##knn2=KNeighborsClassifier(n_neighbors=i)
+    ##score=cross_val_score(knn2,x1,y,cv=10)
+    ##overall.append(score.mean())
     
     
 ##plt.plot(range(1,40),overall,marker='o')
