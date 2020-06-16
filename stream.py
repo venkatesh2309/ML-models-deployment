@@ -67,7 +67,7 @@ x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
 
 # KNN or k-Nearest Neighbors
 ##from sklearn.neighbors import KNeighborsClassifier
-##from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score
 
 ##knn = KNeighborsClassifier(n_neighbors=13)
 ##knn.fit(x_train, y_train)
