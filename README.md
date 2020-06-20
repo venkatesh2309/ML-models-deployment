@@ -1,2 +1,2 @@
 # ML-models-deployment
-Models deployment in Heroku with streamlit app
+1. Diabetes Prediction Model deployment in Heroku with streamlit app
