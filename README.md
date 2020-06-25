@@ -14,4 +14,4 @@ thwefgsdvxkfl
 https://diabetespred-api.herokuapp.com/
 
 ##web app link
-[Diabetes pred link]()
+[Diabetes pred link](https://diabetespred-api.herokuapp.com/)
